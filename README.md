@@ -105,7 +105,7 @@ Protocol: take audited-clean sequences, inject **one known error per sequence**
 | dataset (n) | rules flag | direct flag | **layered flag** | layered semantic | layered VLM calls | direct VLM calls | control FP |
 |---|---|---|---|---|---|---|---|
 | LUART (24) | 0.60 ± 0.03 | 0.40 ± 0.03 | **1.00 ± 0.00** | **1.00 ± 0.00** | 123 ± 1 | 380 ± 2 | 0.000 |
-| M3Track (16) | 0.41 ± 0.05 | 0.61 ± 0.05 | **0.98 ± 0.05** | **1.00 ± 0.00** | 101 ± 9 | 250 ± 4 | 0.000 |
+| M3Track (16) | 0.41 ± 0.05 | 0.61 ± 0.04 | **0.98 ± 0.04** | **1.00 ± 0.00** | 101 ± 9 | 250 ± 4 | 0.000 |
 | UAV-CB (10) | 0.57 ± 0.00 | 0.43 ± 0.00 | **1.00 ± 0.00** | **1.00 ± 0.00** | 84 ± 0 | 159 ± 0 | 0.000 |
 
 **Zero control false positives across all 12 runs** (every method, dataset, and seed).

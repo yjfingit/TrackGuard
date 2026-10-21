@@ -137,8 +137,8 @@ VLM for paper numbers; 4 seeds per dataset, mean±std via `aggregate`):
   layered flag **1.00±0.00** (semantic **1.00±0.00**, proven-FAIL 0.71,
   123±1 calls).
 - M3Track (transfer, no code changes), n=16: rules flag 0.41±0.05
-  (semantic 0.11±0.07); direct flag 0.61±0.05 (semantic 0.96±0.07,
-  250±4 calls); layered flag **0.98±0.05** (semantic **1.00±0.00**,
+  (semantic 0.11±0.07); direct flag 0.61±0.04 (semantic 0.96±0.07,
+  250±4 calls); layered flag **0.98±0.04** (semantic **1.00±0.00**,
   proven-FAIL 0.61, 100±9 calls).
 - UAV-CB (hard regime: sparse frames, erratic drone motion), n=10: rules
   flag 0.57±0.00 (semantic 0.00); direct flag 0.43±0.00 (semantic 1.00,
