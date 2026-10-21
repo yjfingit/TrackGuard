@@ -1,0 +1,4 @@
+method	detect_fail	flag_all	flag_semantic	fpr_fail_ctrl	fpr_flag_ctrl	vlm_calls	human_sequences
+rules	10/17	10/17	0/7	0/7	0/7	0	10
+direct	5/17	7/17	7/7	0/7	0/7	378	7
+layered	12/17	17/17	7/7	0/7	0/7	124	17

@@ -1,0 +1,108 @@
+{
+ "judge": "vision-capable LLM via chat session (ref mode, same prompt as skill tier 3)",
+ "n": 15,
+ "sensitivity": "7/7",
+ "specificity": "8/8",
+ "accuracy": "15/15",
+ "records": [
+  {
+   "query": "Electricbike_73/A",
+   "dataset": "LUART",
+   "expect": "GOOD",
+   "got": "GOOD"
+  },
+  {
+   "query": "Electricbike_73/B",
+   "dataset": "LUART",
+   "expect": "BAD",
+   "got": "BAD",
+   "injection": "offset"
+  },
+  {
+   "query": "Runner_13/C",
+   "dataset": "LUART",
+   "expect": "GOOD",
+   "got": "GOOD"
+  },
+  {
+   "query": "Runner_13/D",
+   "dataset": "LUART",
+   "expect": "BAD",
+   "got": "BAD",
+   "injection": "jump/offset"
+  },
+  {
+   "query": "00029path_View2/E",
+   "dataset": "M3Track",
+   "expect": "BAD",
+   "got": "BAD",
+   "injection": "switch_corner"
+  },
+  {
+   "query": "00020court3_View2/F",
+   "dataset": "M3Track",
+   "expect": "GOOD",
+   "got": "GOOD"
+  },
+  {
+   "query": "building_1/G",
+   "dataset": "UAV-CB",
+   "expect": "GOOD",
+   "got": "GOOD",
+   "note": "natural jitter frame"
+  },
+  {
+   "query": "cloud_1/H",
+   "dataset": "UAV-CB",
+   "expect": "GOOD",
+   "got": "GOOD",
+   "note": "natural jitter frame"
+  },
+  {
+   "query": "Basketballplayer_1",
+   "dataset": "LUART",
+   "expect": "BAD",
+   "got": "BAD",
+   "injection": "offset_box"
+  },
+  {
+   "query": "Car_77",
+   "dataset": "LUART",
+   "expect": "GOOD",
+   "got": "GOOD"
+  },
+  {
+   "query": "00022gate_View1",
+   "dataset": "M3Track",
+   "expect": "BAD",
+   "got": "BAD",
+   "injection": "stale_segment"
+  },
+  {
+   "query": "00020court3_View2",
+   "dataset": "M3Track",
+   "expect": "GOOD",
+   "got": "GOOD"
+  },
+  {
+   "query": "ground_2",
+   "dataset": "UAV-CB",
+   "expect": "BAD",
+   "got": "BAD",
+   "injection": "offset_box"
+  },
+  {
+   "query": "building_2",
+   "dataset": "UAV-CB",
+   "expect": "GOOD",
+   "got": "GOOD"
+  },
+  {
+   "query": "cloud_2",
+   "dataset": "UAV-CB",
+   "expect": "BAD",
+   "got": "BAD",
+   "injection": "drift_box"
+  }
+ ]
+}

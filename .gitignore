@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# generated demo data and audit/benchmark outputs
+/demo/
+/demo_audit/
+/demo_bench/
+out_*/
+bench/
+bench_*/
+ms_*/
+ablation/
+ablation_*/
+pool/
+rules/
+layered/
+direct/
+vlm_matrix/
+*.log
